@@ -1,2 +1,2 @@
 # Angela_course_web
-Angela Yu coure in web development
+Angela Yu course in web development
