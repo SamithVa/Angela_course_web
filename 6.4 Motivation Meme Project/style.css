@@ -1,0 +1,23 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+.title{
+    text-transform: uppercase;
+}
+
+.text, .title{
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+}
+
+img{
+    border: solid white 5px;
+    width: 100%;
+}
+
+.container{
+    width: 50%;
+    margin: 5rem auto;
+}
