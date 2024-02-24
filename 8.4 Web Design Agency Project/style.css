@@ -21,33 +21,53 @@ footer {
 
 /* Solution */
 
-.main h1{
-  width: 50%;
-}
-
 span {
   color: midnightblue;
 }
 
-img{
-  width: 200px;
+h1 {
+  width: 50%;
 }
 
-.container{
-  display: flex;
-  justify-content: space-between;
+.tile-image{
+  height: 200px;
+  float: left;
+  margin-right: 50px;
 }
 
-.card{
-  display: flex;
-  justify-content: space-between;
+.card {
+  width: 45%;
 }
 
-.description p{
-  width: 300px;
+.left{
+  float: left;
 }
 
+.right{
+  float: right;
+}
 
+@media (max-width : 680px){
+  
+  .logo{
+    width: 100px;
+  }
 
+  h1{
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
 
-
+  .card img {
+    display: inline;
+    margin-bottom: 10px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
